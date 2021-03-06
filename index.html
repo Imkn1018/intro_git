@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-title">Tweetメモ</div>
+    <div class="tweet-category">
+        <div class="tweet-category-Item">ツイートのカテゴリー</div>
+        <input type="text" class="tweet-category-Item">
+    </div>
+    
+    <div class="text-box">
+        
+        <textarea class="textArea" name="" id="" cols="30" rows="10" onkeyup="tweetCount(value);"></textarea>
+    </div>
+    <div class="form">
+        <textarea class="textCount" name="" id="" cols="30" rows="10"　onchange="changeColor();"></textarea>
+        
+        <button class="btn">Tweet</button>   
+    </div>
+   
+    <script src="main.js"></script>
+</body>
+</html>
